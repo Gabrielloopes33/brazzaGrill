@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Container, Grid, IconButton, Link, Typography } from '@mui/material';
+import { Box, Container, IconButton, Link, Typography } from '@mui/material';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
@@ -50,9 +50,9 @@ const Footer: React.FC = () => {
       }}
     >
       <Container maxWidth="lg">
-        <Grid container spacing={4} sx={{ mb: 4 }}>
+        <Box sx={{ display: 'grid', gridTemplateColumns: { xs: '1fr', md: 'repeat(4, 1fr)' }, gap: 4, mb: 4 }}>
           {/* Brand Column */}
-          <Grid item xs={12} md={4}>
+          <Box>
             <Box sx={{ mb: 2 }}>
               <Box
                 component="img"
@@ -93,10 +93,10 @@ const Footer: React.FC = () => {
               Mon-Thu: 11AM-9PM | Fri: 11AM-10PM<br />
               Sat: 12PM-10PM | Sun: 12PM-8PM
             </Typography>
-          </Grid>
+          </Box>
 
           {/* Quick Links */}
-          <Grid item xs={12} sm={4} md={2}>
+          <Box>
             <Typography variant="h6" sx={{ fontWeight: 700, mb: 2, color: 'white' }}>
               Quick Links
             </Typography>
@@ -127,10 +127,10 @@ const Footer: React.FC = () => {
                 </ScrollLink>
               ))}
             </Box>
-          </Grid>
+          </Box>
 
           {/* Delivery Apps */}
-          <Grid item xs={12} sm={4} md={3}>
+          <Box>
             <Typography variant="h6" sx={{ fontWeight: 700, mb: 2, color: 'white' }}>
               Order Now
             </Typography>
@@ -154,10 +154,10 @@ const Footer: React.FC = () => {
                 </Link>
               ))}
             </Box>
-          </Grid>
+          </Box>
 
           {/* Connect */}
-          <Grid item xs={12} sm={4} md={3}>
+          <Box>
             <Typography variant="h6" sx={{ fontWeight: 700, mb: 2, color: 'white' }}>
               Connect With Us
             </Typography>
@@ -186,8 +186,8 @@ const Footer: React.FC = () => {
             <Typography variant="caption" sx={{ color: 'text.secondary', display: 'block', mb: 1 }}>
               Follow us for exclusive deals and updates!
             </Typography>
-          </Grid>
-        </Grid>
+          </Box>
+        </Box>
 
         {/* Divider */}
         <Box
