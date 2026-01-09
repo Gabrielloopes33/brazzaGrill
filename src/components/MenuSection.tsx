@@ -372,16 +372,19 @@ const MenuSection: React.FC = () => {
                       gap: 0.5,
                     }}
                   >
-                    {item.badges.map((badge) => (
-                      <Chip
-                        key={badge}
-                        icon={getBadgeIcon(badge)}
-                        label={badge.toUpperCase()}
-                        color={getBadgeColor(badge) as any}
-                        size="small"
-                        sx={{ fontWeight: 700 }}
-                      />
-                    ))}
+                    {item.badges.map((badge) => {
+                      const icon = getBadgeIcon(badge);
+                      return (
+                        <Chip
+                          key={badge}
+                          icon={icon || undefined}
+                          label={badge.toUpperCase()}
+                          color={getBadgeColor(badge) as any}
+                          size="small"
+                          sx={{ fontWeight: 700 }}
+                        />
+                      );
+                    })}
                   </Box>
                 )}
 
@@ -498,15 +501,18 @@ const MenuSection: React.FC = () => {
               />
               {selectedItem.badges && selectedItem.badges.length > 0 && (
                 <Box sx={{ display: 'flex', gap: 1, mb: 2 }}>
-                  {selectedItem.badges.map((badge) => (
-                    <Chip
-                      key={badge}
-                      icon={getBadgeIcon(badge)}
-                      label={badge.toUpperCase()}
-                      color={getBadgeColor(badge) as any}
-                      size="small"
-                    />
-                  ))}
+                  {selectedItem.badges.map((badge) => {
+                    const icon = getBadgeIcon(badge);
+                    return (
+                      <Chip
+                        key={badge}
+                        icon={icon || undefined}
+                        label={badge.toUpperCase()}
+                        color={getBadgeColor(badge) as any}
+                        size="small"
+                      />
+                    );
+                  })}
                 </Box>
               )}
               <Typography variant="body1" sx={{ mb: 3 }}>

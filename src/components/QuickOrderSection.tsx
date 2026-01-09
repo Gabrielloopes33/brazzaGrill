@@ -19,20 +19,6 @@ const SpeedZappIcon = () => (
   </svg>
 );
 
-const DoorDashIcon = () => (
-  <svg width="48" height="48" viewBox="0 0 48 48" fill="currentColor">
-    <path d="M34.5 19.5c-3.3-3.3-8.7-3.3-12 0l-9 9c-1.2 1.2-1.2 3.1 0 4.2 1.2 1.2 3.1 1.2 4.2 0l9-9c.9-.9 2.4-.9 3.3 0 .9.9.9 2.4 0 3.3l-9 9c-3.3 3.3-8.7 3.3-12 0-3.3-3.3-3.3-8.7 0-12l9-9c5.1-5.1 13.4-5.1 18.5 0 1.2 1.2 1.2 3.1 0 4.2-1.2 1.3-3.1 1.3-4.2.3z"/>
-  </svg>
-);
-
-const UberEatsIcon = () => (
-  <svg width="48" height="48" viewBox="0 0 48 48" fill="currentColor">
-    <path d="M24 8c-8.8 0-16 7.2-16 16s7.2 16 16 16 16-7.2 16-16-7.2-16-16-16zm-2 24h-4V18h4v14zm8 0h-4V18h4v14z"/>
-    <circle cx="20" cy="14" r="2"/>
-    <circle cx="28" cy="14" r="2"/>
-  </svg>
-);
-
 const platforms: DeliveryPlatform[] = [
   {
     name: 'SPEEDZAPP',

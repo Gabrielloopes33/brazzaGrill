@@ -13,10 +13,7 @@ import {
 } from '@mui/material';
 import { motion } from 'framer-motion';
 import { useForm } from 'react-hook-form';
-import * as yup from 'yup';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
-import EmailIcon from '@mui/icons-material/Email';
-import PhoneIcon from '@mui/icons-material/Phone';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import SendIcon from '@mui/icons-material/Send';
@@ -29,14 +26,6 @@ interface ContactFormData {
   message: string;
   subscribe: boolean;
 }
-
-const schema = yup.object().shape({
-  name: yup.string().required('Name is required').min(2, 'Name must be at least 2 characters'),
-  email: yup.string().required('Email is required').email('Invalid email address'),
-  phone: yup.string().required('Phone is required').matches(/^[0-9+\-\s()]+$/, 'Invalid phone number'),
-  message: yup.string().required('Message is required').min(10, 'Message must be at least 10 characters'),
-  subscribe: yup.boolean(),
-});
 
 const ContactSection: React.FC = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
