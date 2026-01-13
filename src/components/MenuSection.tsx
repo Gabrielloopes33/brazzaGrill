@@ -29,6 +29,7 @@ interface MenuItem {
   image: string;
   category: string;
   badges?: ('popular' | 'new' | 'spicy')[];
+  link?: string;
 }
 
 const menuItems: MenuItem[] = [
@@ -38,34 +39,38 @@ const menuItems: MenuItem[] = [
     name: 'Kids',
     description: 'Pão brioche selado na manteiga, burger smash de 80g, queijo mussarela e molho Brazza + Kinder Ovo',
     price: 10.00,
-    image: 'https://speedzapp.com/userfiles/sp-us/imagens/estabelecimentos/83/produtos/66NFOTT2G384.png',
+    image: 'https://speedzapp.com/userfiles/sp-us/imagens/estabelecimentos/83/produtos/J7U14D43Y9A0.png',
     category: 'Smash',
+    link: 'https://speedzapp.com/brazzagrill?lang=pt-br',
   },
   {
     id: 2,
     name: 'Smash',
     description: 'Pão brioche selado na manteiga, burger smash de 80g, queijo cheddar, cebola roxa, salada e molho Brazza',
     price: 12.00,
-    image: 'https://speedzapp.com/userfiles/sp-us/imagens/estabelecimentos/83/produtos/JF223038YITH.png',
+    image: 'https://speedzapp.com/userfiles/sp-us/imagens/estabelecimentos/83/produtos/66NFOTT2G384.png',
     category: 'Smash',
     badges: ['popular'],
+    link: 'https://speedzapp.com/brazzagrill?lang=pt-br',
   },
   {
     id: 3,
     name: 'Brazzinha',
     description: 'Pão brioche selado na manteiga, burger smash de 80g, queijo mussarela, cebola crispy, salada e molho Brazza',
     price: 12.00,
-    image: 'https://speedzapp.com/userfiles/sp-us/imagens/estabelecimentos/83/produtos/Q306C55T4VN8.png',
+    image: 'https://speedzapp.com/userfiles/sp-us/imagens/estabelecimentos/83/produtos/JF223038YITH.png',
     category: 'Smash',
+    link: 'https://speedzapp.com/brazzagrill?lang=pt-br',
   },
   {
     id: 4,
     name: 'Supremo',
     description: 'Pão brioche selado na manteiga, dois burger smash de 80g cada, dupla camada de queijo cheddar, bacon fatia, salada e molho Brazza',
     price: 16.00,
-    image: '/menu/burger1.jpg',
+    image: 'https://speedzapp.com/userfiles/sp-us/imagens/estabelecimentos/83/produtos/Q306C55T4VN8.png',
     category: 'Smash',
     badges: ['popular'],
+    link: 'https://speedzapp.com/brazzagrill?lang=pt-br',
   },
   
   // GOURMET
@@ -74,43 +79,48 @@ const menuItems: MenuItem[] = [
     name: 'Cheese Burger',
     description: 'Pão brioche selado na manteiga, burger de 140g, queijo mussarela, salada e molho Brazza',
     price: 12.00,
-    image: 'https://speedzapp.com/userfiles/sp-us/imagens/estabelecimentos/83/produtos/99P5T570AVPE.jpg',
+    image: 'https://speedzapp.com/userfiles/sp-us/imagens/estabelecimentos/83/produtos/2M85VHMYNX9J.jpg',
     category: 'Gourmet',
+    link: 'https://speedzapp.com/brazzagrill?lang=pt-br',
   },
   {
     id: 6,
     name: 'Big Brazza',
     description: 'Pão brioche selado na manteiga, burger de 140g, queijo mussarela em dobro, bacon fatia, molho BBQ, salada e molho Brazza',
     price: 16.00,
-    image: 'https://speedzapp.com/userfiles/sp-us/imagens/estabelecimentos/83/produtos/VBAK35S8697V.jpg',
+    image: 'https://speedzapp.com/userfiles/sp-us/imagens/estabelecimentos/83/produtos/99P5T570AVPE.jpg',
     category: 'Gourmet',
     badges: ['popular'],
+    link: 'https://speedzapp.com/brazzagrill?lang=pt-br',
   },
   {
     id: 7,
     name: 'Brazzeiro',
     description: 'Pão brioche selado na manteiga, burger de 140g, cebola roxa e tomate chapeado com cobertura de cheddar fatia, bacon fatia, creme de alho da casa e molho Brazza',
     price: 17.00,
-    image: 'https://speedzapp.com/userfiles/sp-us/imagens/estabelecimentos/83/produtos/34D317W1DETN.jpg',
+    image: 'https://speedzapp.com/userfiles/sp-us/imagens/estabelecimentos/83/produtos/VBAK35S8697V.jpg',
     category: 'Gourmet',
+    link: 'https://speedzapp.com/brazzagrill?lang=pt-br',
   },
   {
     id: 8,
     name: 'Ember',
     description: 'Pão brioche selado na manteiga, burger de 140g, três queijos, cebola caramelizada, bacon fatia, molho BBQ, ovo, salada e molho Brazza',
     price: 19.00,
-    image: 'https://speedzapp.com/userfiles/sp-us/imagens/estabelecimentos/83/produtos/S5MZ0SYOL1OJ.jpg',
+    image: 'https://speedzapp.com/userfiles/sp-us/imagens/estabelecimentos/83/produtos/34D317W1DETN.jpg',
     category: 'Gourmet',
     badges: ['new'],
+    link: 'https://speedzapp.com/brazzagrill?lang=pt-br',
   },
   {
     id: 9,
     name: 'Sheriff',
     description: 'Pão brioche selado na manteiga, três burger de 140g, três camadas de cheddar, tres camadas de bacon fatia, cebola caramelizada, molho BBQ, ovo, salada e molho Brazza',
     price: 28.00,
-    image: '/menu/burger2.jpg',
+    image: 'https://speedzapp.com/userfiles/sp-us/imagens/estabelecimentos/83/produtos/S5MZ0SYOL1OJ.jpg',
     category: 'Gourmet',
     badges: ['popular'],
+    link: 'https://speedzapp.com/brazzagrill?lang=pt-br',
   },
   
   // TRADICIONAL
@@ -119,41 +129,46 @@ const menuItems: MenuItem[] = [
     name: 'Simples',
     description: 'Pão Brioche, burger 110g bovino, Milho, Batata e Salada',
     price: 10.00,
-    image: '/menu/burger3.jpg',
+    image: '',
     category: 'Tradicional',
+    link: 'https://speedzapp.com/brazzagrill?lang=pt-br',
   },
   {
     id: 11,
     name: 'X-Burger',
     description: 'Pão Brioche, burger 110g bovino, Queijo Mussarela em dobro, Milho, Batata e Salada',
     price: 12.00,
-    image: '/menu/burger4.jpg',
+    image: '',
     category: 'Tradicional',
+    link: 'https://speedzapp.com/brazzagrill?lang=pt-br',
   },
   {
     id: 12,
     name: 'X-Egg Burger',
     description: 'Pão Brioche, burger 110g bovino, Queijo Mussarela em dobro, Ovo, Milho, Batata e Salada',
     price: 15.00,
-    image: '/menu/burger5.jpg',
+    image: '',
     category: 'Tradicional',
+    link: 'https://speedzapp.com/brazzagrill?lang=pt-br',
   },
   {
     id: 13,
     name: 'X-Bacon Burger',
     description: 'Pão Brioche, burger 110g bovino, Queijo Mussarela em dobro, Bacon Cubinho, Milho, Batata e Salada',
     price: 17.00,
-    image: '/menu/burger6.jpg',
+    image: '',
     category: 'Tradicional',
+    link: 'https://speedzapp.com/brazzagrill?lang=pt-br',
   },
   {
     id: 14,
     name: 'X-Tudo',
     description: 'Pão Brioche, burger 110g bovino, Queijo Mussarela em dobro, Bacon Cubinho, Ovo, Presunto Defumado, Milho, Batata e Salada',
     price: 20.00,
-    image: '/menu/burger1.jpg',
+    image: '',
     category: 'Tradicional',
     badges: ['popular'],
+    link: 'https://speedzapp.com/brazzagrill?lang=pt-br',
   },
   
   // BEBIDAS
@@ -164,6 +179,7 @@ const menuItems: MenuItem[] = [
     price: 2.00,
     image: 'https://speedzapp.com/userfiles/sp-us/imagens/estabelecimentos/83/produtos/CY97UT94XNS0.jpg',
     category: 'Drinks',
+    link: 'https://speedzapp.com/brazzagrill?lang=pt-br',
   },
   {
     id: 16,
@@ -172,6 +188,7 @@ const menuItems: MenuItem[] = [
     price: 2.00,
     image: 'https://speedzapp.com/userfiles/sp-us/imagens/estabelecimentos/83/produtos/3P8KUA3018QD.jpeg',
     category: 'Drinks',
+    link: 'https://speedzapp.com/brazzagrill?lang=pt-br',
   },
   {
     id: 17,
@@ -180,6 +197,7 @@ const menuItems: MenuItem[] = [
     price: 3.00,
     image: 'https://speedzapp.com/userfiles/sp-us/imagens/estabelecimentos/83/produtos/09IF524M0TWI.jpg',
     category: 'Drinks',
+    link: 'https://speedzapp.com/brazzagrill?lang=pt-br',
   },
   {
     id: 18,
@@ -188,6 +206,7 @@ const menuItems: MenuItem[] = [
     price: 3.00,
     image: 'https://speedzapp.com/userfiles/sp-us/imagens/estabelecimentos/83/produtos/8JWJL06ES2LH.png',
     category: 'Drinks',
+    link: 'https://speedzapp.com/brazzagrill?lang=pt-br',
   },
   {
     id: 19,
@@ -196,14 +215,16 @@ const menuItems: MenuItem[] = [
     price: 3.00,
     image: 'https://speedzapp.com/userfiles/sp-us/imagens/estabelecimentos/83/produtos/6X5M6P2I340M.png',
     category: 'Drinks',
+    link: 'https://speedzapp.com/brazzagrill?lang=pt-br',
   },
   {
     id: 20,
     name: 'Suco de Manga',
     description: 'Suco natural de manga',
     price: 3.00,
-    image: '/menu/drink1.jpg',
+    image: 'https://speedzapp.com/userfiles/sp-us/imagens/estabelecimentos/83/produtos/OA8029R7E64Z.jpeg',
     category: 'Drinks',
+    link: 'https://speedzapp.com/brazzagrill?lang=pt-br',
   },
 ];
 
@@ -526,10 +547,11 @@ const MenuSection: React.FC = () => {
                 color="primary"
                 fullWidth
                 size="large"
-                href="#order"
-                onClick={handleCloseDialog}
+                href={selectedItem.link || 'https://speedzapp.com/brazzagrill?lang=pt-br'}
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                Add to Order
+                Order on SpeedZapp
               </Button>
             </DialogContent>
           </>

@@ -50,33 +50,33 @@ function App() {
         
         {/* SEO Meta Tags */}
         <Helmet>
-          <title>Brazza Grill - Authentic Brazilian Burgers in Miami, Florida</title>
+          <title>Brazza Grill - Authentic Brazilian Burgers in Fort Myers, Florida</title>
           <meta 
             name="description" 
-            content="Experience authentic Brazilian burgers in Miami! Brazza Grill brings 6 years of passion and excellence to every bite. Order now via Speedzapp, UberEats, or DoorDash." 
+            content="Experience authentic Brazilian burgers in Fort Myers! Brazza Grill brings 6 years of passion and excellence to every bite. Order now via Speedzapp, UberEats, or DoorDash." 
           />
           <meta 
             name="keywords" 
-            content="Brazilian burgers Miami, food truck Miami, Brazza Grill, best burgers Florida, gourmet burgers, Miami food delivery, Brazilian food, burgers near me" 
+            content="Brazilian burgers Fort Myers, food truck Fort Myers, Brazza Grill, best burgers Florida, gourmet burgers, Fort Myers food delivery, Brazilian food, burgers near me" 
           />
           
           {/* Open Graph / Facebook */}
           <meta property="og:type" content="website" />
           <meta property="og:url" content="https://www.brazzagrill.com/" />
-          <meta property="og:title" content="Brazza Grill - Authentic Brazilian Burgers in Miami" />
+          <meta property="og:title" content="Brazza Grill - Authentic Brazilian Burgers in Fort Myers" />
           <meta 
             property="og:description" 
-            content="6 years of passion. Now bringing excellence to Miami. Order authentic Brazilian burgers from our food truck!" 
+            content="6 years of passion. Now bringing excellence to Fort Myers. Order authentic Brazilian burgers from our food truck!" 
           />
           <meta property="og:image" content="https://www.brazzagrill.com/og-image.jpg" />
           
           {/* Twitter */}
           <meta property="twitter:card" content="summary_large_image" />
           <meta property="twitter:url" content="https://www.brazzagrill.com/" />
-          <meta property="twitter:title" content="Brazza Grill - Authentic Brazilian Burgers in Miami" />
+          <meta property="twitter:title" content="Brazza Grill - Authentic Brazilian Burgers in Fort Myers" />
           <meta 
             property="twitter:description" 
-            content="6 years of passion. Now bringing excellence to Miami. Order authentic Brazilian burgers from our food truck!" 
+            content="6 years of passion. Now bringing excellence to Fort Myers. Order authentic Brazilian burgers from our food truck!" 
           />
           <meta property="twitter:image" content="https://www.brazzagrill.com/twitter-image.jpg" />
           
@@ -94,11 +94,11 @@ function App() {
               "@type": "Restaurant",
               "name": "Brazza Grill",
               "image": "https://www.brazzagrill.com/logo.png",
-              "description": "Authentic Brazilian burgers in Miami, Florida",
+              "description": "Authentic Brazilian burgers in Fort Myers, Florida",
               "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "Miami",
-                "addressLocality": "Miami",
+                "streetAddress": "Fort Myers",
+                "addressLocality": "Fort Myers",
                 "addressRegion": "FL",
                 "postalCode": "33101",
                 "addressCountry": "US"

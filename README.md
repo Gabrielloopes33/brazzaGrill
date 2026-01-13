@@ -4,7 +4,7 @@
 
 ## 🎯 Sobre o Projeto
 
-Landing page moderna e responsiva para o **Brazza Grill**, food truck especializado em hambúrgueres brasileiros autênticos em Miami, Florida. O site foi desenvolvido com foco em conversão, performance e experiência do usuário.
+Landing page moderna e responsiva para o **Brazza Grill**, food truck especializado em hambúrgueres brasileiros autênticos em Fort Myers, Florida. O site foi desenvolvido com foco em conversão, performance e experiência do usuário.
 
 ## ✨ Características
 
@@ -46,7 +46,7 @@ Landing page moderna e responsiva para o **Brazza Grill**, food truck especializ
    - Integração com plataformas
 
 6. **Our Story**
-   - História da marca (Brasil → Miami)
+   - História da marca (Brasil → Fort Myers)
    - Fotos Before/After
    - Valores e promessa
    - Estatísticas
@@ -151,7 +151,7 @@ Adicione os seguintes arquivos na pasta `public/`:
 
 ### Story (`public/`)
 - `story-before.jpg` - Foto do food truck no Brasil
-- `story-after.jpg` - Foto do food truck em Miami
+- `story-after.jpg` - Foto do food truck em Fort Myers
 
 ### Instagram (`public/instagram/`)
 - `post1.jpg` até `post9.jpg`
@@ -280,4 +280,4 @@ Para dúvidas ou suporte:
 
 ---
 
-**Made with ❤️ in Miami, Florida** 🇧🇷 🇺🇸
+**Made with ❤️ in Fort Myers, Florida** 🇧🇷 🇺🇸

@@ -80,13 +80,13 @@ const Footer: React.FC = () => {
               </Typography>
             </Box>
             <Typography variant="body2" sx={{ color: 'text.secondary', mb: 2, lineHeight: 1.6 }}>
-              Authentic Brazilian burgers in Miami, Florida. 
+              Authentic Brazilian burgers in Fort Myers, Florida. 
               Bringing 6 years of passion and excellence to every bite.
             </Typography>
             <Box sx={{ display: 'flex', alignItems: 'center', gap: 0.5, mb: 1 }}>
               <LocationOnIcon sx={{ fontSize: 18, color: 'primary.main' }} />
               <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-                Miami, Florida
+                Fort Myers, Florida
               </Typography>
             </Box>
             <Typography variant="body2" sx={{ color: 'text.secondary' }}>
@@ -240,7 +240,7 @@ const Footer: React.FC = () => {
                 gap: 0.5,
               }}
             >
-              Made with <FavoriteIcon sx={{ fontSize: 14, color: 'primary.main' }} /> in Miami, Florida
+              Made with <FavoriteIcon sx={{ fontSize: 14, color: 'primary.main' }} /> in Fort Myers, Florida
             </Typography>
           </Box>
         </Box>

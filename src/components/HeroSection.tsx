@@ -162,7 +162,7 @@ const HeroSection: React.FC = () => {
               textShadow: '0 2px 10px rgba(0, 0, 0, 0.8)',
             }}
           >
-            in Miami, Florida
+            in Fort Myers, Florida
           </Typography>
 
           <Typography
@@ -178,7 +178,7 @@ const HeroSection: React.FC = () => {
               textShadow: '0 2px 10px rgba(0, 0, 0, 0.8)',
             }}
           >
-            6 years of passion. Now bringing excellence to Miami.
+            6 years of passion. Now bringing excellence to Fort Myers.
           </Typography>
 
           {/* Statistics */}

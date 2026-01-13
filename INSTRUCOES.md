@@ -53,7 +53,7 @@ Crie as pastas e adicione as imagens:
 - `hero-image.jpg` - Imagem fallback para mobile (1920x1080px)
 - `og-image.jpg` - Imagem Open Graph para redes sociais (1200x630px)
 - `story-before.jpg` - Foto do food truck no Brasil (800x600px)
-- `story-after.jpg` - Foto do food truck em Miami (800x600px)
+- `story-after.jpg` - Foto do food truck em Fort Myers (800x600px)
 
 **Pasta `public/menu/`:**
 - `burger1.jpg` a `burger6.jpg` - Fotos dos hambúrgueres (600x600px)
@@ -137,7 +137,7 @@ Busque por `instagram.com/brazzagrill` e `facebook.com/brazzagrill` e atualize p
 #### **Google Maps** (`src/components/LocationSection.tsx`)
 ```typescript
 // Linha 79-80
-const address = 'Endereço Completo, Miami, FL 33101'; // ← Seu endereço
+const address = 'Endereço Completo, Fort Myers, FL 33101'; // ← Seu endereço
 const googleMapsUrl = 'https://goo.gl/maps/SEULINK';  // ← Link Google Maps
 const googleMapsEmbedUrl = 'https://www.google.com/maps/embed?pb=...'; // ← Embed URL
 ```
@@ -275,7 +275,7 @@ Você terá uma landing page:
 - 🍔 **Focada em Conversão** (delivery)
 - 🇧🇷 **Com identidade brasileira**
 
-**Boa sorte com o lançamento do Brazza Grill em Miami! 🍔🔥**
+**Boa sorte com o lançamento do Brazza Grill em Fort Myers! 🍔🔥**
 
 ---
 

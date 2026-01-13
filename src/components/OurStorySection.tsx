@@ -41,7 +41,7 @@ const OurStorySection: React.FC = () => {
               mx: 'auto',
             }}
           >
-            From Brazil to Miami - A Journey of Passion and Flavor
+            From Brazil to Fort Myers - A Journey of Passion and Flavor
           </Typography>
         </Box>
 
@@ -96,7 +96,7 @@ const OurStorySection: React.FC = () => {
                   color: 'primary.main',
                 }}
               >
-                Moving to Miami 🇺🇸
+                Moving to Fort Myers 🇺🇸
               </Typography>
               <Typography
                 variant="body1"
@@ -107,7 +107,7 @@ const OurStorySection: React.FC = () => {
                 }}
               >
                 Driven by a dream to share authentic Brazilian flavors with America, we made the bold 
-                decision to bring Brazza Grill to Miami, Florida. We wanted to introduce the unique 
+                decision to bring Brazza Grill to Fort Myers, Florida. We wanted to introduce the unique 
                 combination of Brazilian hospitality and gourmet burger craftsmanship to a new audience.
               </Typography>
             </Box>
@@ -261,12 +261,12 @@ const OurStorySection: React.FC = () => {
                   zIndex: 1,
                 }}
               >
-                🇺🇸 MIAMI - 2024
+                🇺🇸 Fort Myers - 2024
               </Box>
               <Box
                 component="img"
-                src="/story-miami.jpg"
-                alt="Brazza Grill in Miami"
+                src="/story-Fort Myers.jpg"
+                alt="Brazza Grill in Fort Myers"
                 sx={{
                   width: '100%',
                   height: { xs: 250, md: 300 },
